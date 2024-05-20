@@ -5,6 +5,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
 
 public class EmailService {
 
